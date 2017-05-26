@@ -1,0 +1,31 @@
+{
+  "name": "kap-giphy",
+  "version": "0.0.0",
+  "description": "Share GIFs on GIPHY",
+  "license": "MIT",
+  "repository": "wulkano/kap-giphy",
+  "author": {
+    "name": "Wulkano",
+    "email": "hello@wulkano.com",
+    "url": "https://wulkano.com"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "kap-plugin",
+    "giphy",
+    "gif",
+    "upload",
+    "share"
+  ],
+  "dependencies": {
+    "form-data": "^2.1.4"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
