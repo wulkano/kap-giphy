@@ -1,6 +1,6 @@
 {
   "name": "kap-giphy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Share GIFs on GIPHY",
   "license": "MIT",
   "repository": "wulkano/kap-giphy",
