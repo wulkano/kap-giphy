@@ -10,7 +10,7 @@
     "url": "https://wulkano.com"
   },
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -26,6 +26,8 @@
     "form-data": "^2.1.4"
   },
   "devDependencies": {
+    "ava": "^0.19.1",
+    "kap-plugin-test": "^0.4.0",
     "xo": "^0.18.2"
   }
 }
