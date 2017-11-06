@@ -1,33 +1,33 @@
 {
-  "name": "kap-giphy",
-  "version": "0.1.0",
-  "description": "Share GIFs on GIPHY",
-  "license": "MIT",
-  "repository": "wulkano/kap-giphy",
-  "author": {
-    "name": "Wulkano",
-    "email": "hello@wulkano.com",
-    "url": "https://wulkano.com"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "kap-plugin",
-    "giphy",
-    "gif",
-    "upload",
-    "share"
-  ],
-  "dependencies": {
-    "form-data": "^2.1.4"
-  },
-  "devDependencies": {
-    "ava": "^0.19.1",
-    "kap-plugin-test": "^0.4.0",
-    "xo": "^0.18.2"
-  }
+	"name": "kap-giphy",
+	"version": "0.1.0",
+	"description": "Share GIFs on GIPHY",
+	"license": "MIT",
+	"repository": "wulkano/kap-giphy",
+	"author": {
+		"name": "Wulkano",
+		"email": "hello@wulkano.com",
+		"url": "https://wulkano.com"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"kap-plugin",
+		"giphy",
+		"gif",
+		"upload",
+		"share"
+	],
+	"dependencies": {
+		"form-data": "^2.1.4"
+	},
+	"devDependencies": {
+		"ava": "^0.23.0",
+		"kap-plugin-test": "^0.5.0",
+		"xo": "^0.18.2"
+	}
 }
