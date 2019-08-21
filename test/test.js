@@ -1,7 +1,7 @@
 import test from 'ava';
 import kapPluginTest from 'kap-plugin-test';
 
-test(async t => {
+test('main', async t => {
 	const plugin = kapPluginTest('unicorn.gif');
 
 	plugin.context.request.resolves({

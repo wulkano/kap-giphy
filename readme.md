@@ -5,14 +5,9 @@
 
 ## Install
 
-In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find this plugin, and click `Install`.
+In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find this plugin, and toggle it.
 
 
 ## Usage
 
 In the editor, after recording, select `GIF`, and then `Share on GIPHY`.
-
-
-## License
-
-MIT © [Wulkano](https://wulkano.com)

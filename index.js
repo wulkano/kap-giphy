@@ -16,25 +16,29 @@ const action = async context => {
 		method: 'post',
 		body: form
 	});
-	const id = JSON.parse(response.body).data.id;
+	const {id} = JSON.parse(response.body).data;
 
 	context.copyToClipboard(`https://giphy.com/gifs/${id}`);
 	context.notify('URL to the GIF has been copied to the clipboard');
 };
 
+const config = {
+	apiKey: {
+		title: 'API key',
+		type: 'string',
+		minLength: 13,
+		default: 'dc6zaTOxFJmzC', // Rate limited test key
+		required: true
+	}
+};
+
 const giphy = {
 	title: 'Share to GIPHY',
-	formats: ['gif'],
+	formats: [
+		'gif'
+	],
 	action,
-	config: {
-		apiKey: {
-			title: 'API key',
-			type: 'string',
-			minLength: 13,
-			default: 'dc6zaTOxFJmzC', // Rate limited test key
-			required: true
-		}
-	}
+	config
 };
 
 exports.shareServices = [giphy];
