@@ -27,13 +27,14 @@ const config = {
 		title: 'API key',
 		type: 'string',
 		minLength: 13,
-		default: 'dc6zaTOxFJmzC', // Rate limited test key
+		default: '24j0dMD6Ml01YtYnEd3D3YvhsSgBmQw9', // Rate limited test key
 		required: true
 	}
 };
 
 const giphy = {
 	title: 'Share to GIPHY',
+	configDescription: 'The default API key is rate limited. In order to be able to upload more GIFs, create your own key here: https://developers.giphy.com/dashboard/',
 	formats: [
 		'gif'
 	],
