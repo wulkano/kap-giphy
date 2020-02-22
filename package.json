@@ -23,11 +23,11 @@
 		"share"
 	],
 	"dependencies": {
-		"form-data": "^2.1.4"
+		"form-data": "^3.0.0"
 	},
 	"devDependencies": {
 		"ava": "^2.3.0",
 		"kap-plugin-test": "^0.5.0",
-		"xo": "^0.24.0"
+		"xo": "^0.26.1"
 	}
 }
