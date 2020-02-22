@@ -34,7 +34,7 @@ const config = {
 
 const giphy = {
 	title: 'Share to GIPHY',
-	configDescription: 'The default API key is rate limited. In order to be able to upload more gifs, create your own key here: https://developers.giphy.com/dashboard/',
+	configDescription: 'The default API key is rate limited. In order to be able to upload more GIFs, create your own key here: https://developers.giphy.com/dashboard/',
 	formats: [
 		'gif'
 	],
