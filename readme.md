@@ -1,4 +1,4 @@
-# kap-giphy [![Build Status](https://travis-ci.org/wulkano/kap-giphy.svg?branch=master)](https://travis-ci.org/wulkano/kap-giphy)
+# kap-giphy [![Build Status](https://travis-ci.org/wulkano/kap-giphy.svg?branch=main)](https://travis-ci.org/wulkano/kap-giphy)
 
 > [Kap](https://github.com/wulkano/kap) plugin - Share GIFs on [GIPHY](https://giphy.com)
 
